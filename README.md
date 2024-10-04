@@ -12,6 +12,3 @@ This reduces the number of operations during execution and thus increases effici
 
 ### Quantization
 Quantization reduces the precision of weights and activations in a NN (for example changing a fp32 to int8) decreasing the time and memory taken up by the NN.
-
-## How to run
-
