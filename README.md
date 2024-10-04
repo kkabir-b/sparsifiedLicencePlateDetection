@@ -4,7 +4,7 @@ While the actual code is quite simple, the creation of the model itself was quit
 This code uses openCV library for all video/camera input
 
 ## Sparsification Explanation
-Sparsification is the process of making a NN model more efficient and computationally inexpensive. This work uses a sparsified version of yoloV8 object detection model for efficient object detection of licence platesalong with paddleOCR for licence plate character recognition
+Sparsification is the process of making a NN model more efficient and computationally inexpensive. This work uses a sparsified version of yoloV8 object detection model for efficient object detection of licence plates along with paddleOCR for licence plate character recognition
 
 ### Pruning
 Pruning in sparsification involves removing redundant connections within a NN. It works on the assumption that NN by design are overly complicated and have unnecessary connections.
